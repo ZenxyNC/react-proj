@@ -18,6 +18,7 @@ function App() {
           You Don't Have To Learn React
         </a>
       </header>
+      <h1>A testing device</h1>
     </div>
   );
 }
