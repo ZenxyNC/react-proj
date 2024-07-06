@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+html {
+  background-color: #212832;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.base-div {
+  width: calc(100% - 190px);
+  max-width: 400px;
+  min-width: 300px;
+  background-color: #31475e99;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: -1px 2px 100px -60px #020203;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.input-div {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  width: 100%;
+  place-items: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 80px;
+  border-radius: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 15px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 20px);
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #007aff;
+  font-weight: 700;
+  color: #E8E8E8;
+  font-size: 14px
+}
+
+input {
+  width: calc(100% - 100px);
+  height: 23px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #212832;
+  padding-left: 5px;
+  color: #e8e8e8
+}
+
+.error-log{
+  position: absolute;
+  width: calc(100% - 100px);
+  background-color: #31475e;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 50px;
+  max-width: 400px;
+  color: red;
+  font-weight: 500;
+  font-size: 20px;
+  display: grid;
+  text-align: center;
+  align-items: center;
+  place-items: center;
+  top: -100px;
+  border-radius: 10px;
+  transition: top 0.6s ease
+}
+.error-log.show {
+  top: 15px
 }
