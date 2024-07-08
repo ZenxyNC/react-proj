@@ -4,14 +4,13 @@ import zen from './resource/Zen.png';
 import { data } from './data.js';
 import { useNavigate } from 'react-router-dom';
 
-export default function Login() {
+export default function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errorLog, setError] = useState("");
   const [username, setUsername] = useState("");
   const [auth, setAuth] = useState(false);
   const [notification, setShowNotification] = useState(false);
-  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -34,10 +33,6 @@ export default function Login() {
     console.log("Success");
     return <h1>Welcome, {username}</h1>;
   }
-
-  const handleRedirect = () => {
-    navigate('/developer', { replace: true });
-  };
 
   return (
     <div>
@@ -64,7 +59,7 @@ export default function Login() {
               />
             </div>
           </div>
-          <button type="submit" onDoubleClick={handleRedirect}>Log in!</button>
+          <button type="submit">Log in!!</button>
         </form>
       </div>
       {errorLog && 
