@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './App.css';
 import zen from './resource/Zen.png';
 import { data } from './data.js';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Dev from './dev.js'
 
 export default function App() {
@@ -39,7 +39,7 @@ export default function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/react-proj/developer" element={<Dev />} />
+          <Route path="/react-proj/devs" element={<Dev />} />
         </Routes>
       </Router>
       <div className="base-div">
