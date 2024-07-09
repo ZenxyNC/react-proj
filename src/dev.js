@@ -2,6 +2,6 @@ import './component/developer/dev.css'
 
 export default function Dev() {
   return(
-    <h1>Hello world!!</h1>
+    <h1>It's the second Hello world!!</h1>
   )
 }
