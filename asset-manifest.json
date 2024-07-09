@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-proj/static/css/main.5eef2b77.css",
-    "main.js": "/react-proj/static/js/main.b45ee130.js",
+    "main.css": "/react-proj/static/css/main.aac77918.css",
+    "main.js": "/react-proj/static/js/main.10ec8166.js",
     "static/js/453.a77ef3f9.chunk.js": "/react-proj/static/js/453.a77ef3f9.chunk.js",
     "static/media/Zen.png": "/react-proj/static/media/Zen.e43e2db7af5fbf2b5ef1.png",
     "index.html": "/react-proj/index.html",
-    "main.5eef2b77.css.map": "/react-proj/static/css/main.5eef2b77.css.map",
-    "main.b45ee130.js.map": "/react-proj/static/js/main.b45ee130.js.map",
+    "main.aac77918.css.map": "/react-proj/static/css/main.aac77918.css.map",
+    "main.10ec8166.js.map": "/react-proj/static/js/main.10ec8166.js.map",
     "453.a77ef3f9.chunk.js.map": "/react-proj/static/js/453.a77ef3f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eef2b77.css",
-    "static/js/main.b45ee130.js"
+    "static/css/main.aac77918.css",
+    "static/js/main.10ec8166.js"
   ]
 }
