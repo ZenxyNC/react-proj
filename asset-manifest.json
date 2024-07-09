@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-proj/static/css/main.5eef2b77.css",
-    "main.js": "/react-proj/static/js/main.26a728b9.js",
-    "static/js/453.a77ef3f9.chunk.js": "/react-proj/static/js/453.a77ef3f9.chunk.js",
-    "static/media/Zen.png": "/react-proj/static/media/Zen.e43e2db7af5fbf2b5ef1.png",
-    "index.html": "/react-proj/index.html",
-    "main.5eef2b77.css.map": "/react-proj/static/css/main.5eef2b77.css.map",
-    "main.26a728b9.js.map": "/react-proj/static/js/main.26a728b9.js.map",
-    "453.a77ef3f9.chunk.js.map": "/react-proj/static/js/453.a77ef3f9.chunk.js.map"
+    "main.css": "/static/css/main.5eef2b77.css",
+    "main.js": "/static/js/main.f0e629df.js",
+    "static/js/453.a77ef3f9.chunk.js": "/static/js/453.a77ef3f9.chunk.js",
+    "static/media/Zen.png": "/static/media/Zen.e43e2db7af5fbf2b5ef1.png",
+    "index.html": "/index.html",
+    "main.5eef2b77.css.map": "/static/css/main.5eef2b77.css.map",
+    "main.f0e629df.js.map": "/static/js/main.f0e629df.js.map",
+    "453.a77ef3f9.chunk.js.map": "/static/js/453.a77ef3f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eef2b77.css",
-    "static/js/main.26a728b9.js"
+    "static/js/main.f0e629df.js"
   ]
 }
