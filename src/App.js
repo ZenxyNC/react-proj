@@ -39,10 +39,8 @@ export default function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Dev />} />
-          <Route path="/developer" element={<Dev />} />
-          {/*<Route path="/react-proj" element={<Dev />} />
-          <Route path="/react-proj/developer" element={<Dev />} />*/}
+          {/*<Route path="/react-proj" element={<Dev />} />*/}
+          <Route path="/react-proj/developer" element={<Dev />} />
         </Routes>
       </Router>
       <div className="base-div">
