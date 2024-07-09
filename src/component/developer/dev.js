@@ -1,4 +1,4 @@
-import './component/developer/dev.css'
+import './dev.css'
 
 export default function Dev() {
   return(

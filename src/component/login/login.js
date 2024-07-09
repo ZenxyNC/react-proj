@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import '../../App.css';
+import './App.css';
 import zen from '../../resource/Zen.png';
 import { data } from '../../data.js';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -32,15 +32,11 @@ export default function Login() {
 
   if (auth) {
     console.log("Success");
-    return <h1>Welcome, {username}</h1>;
+    navigate('/react-proj/devs', { replace: true });
   }
 
-  const handleRedirect = () => {
-    navigate('/developer', { replace: true });
-  };
-
   return (
-    <div>
+    <div className="parent">
       <div className="base-div">
         <img src={zen} className="logo" alt=""/>
         <form onSubmit={handleSubmit}>

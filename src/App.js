@@ -3,7 +3,8 @@ import './App.css';
 import zen from './resource/Zen.png';
 import { data } from './data.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Dev from './dev.js'
+import Dev from './component/developer/dev.js'
+import Login from './component/login/login.js'
 
 export default function App() {
   const [email, setEmail] = useState("");
@@ -19,7 +20,7 @@ export default function App() {
     if (validation) {
       setAuth(true);
       setUsername(validation.username);
-      setError('');
+      setError('')
     } else {
       setAuth(false);
       setError('Invalid email or password');
@@ -31,15 +32,18 @@ export default function App() {
   };
 
   if (auth) {
-    console.log("Success");
-    return <h1>Welcome, {username}</h1>;
+    console.log({username});
+    return <h1>Welcome, {username}</h1>
   }
+  
 
   return (
     <div>
       <Router>
         <Routes>
-          <Route path="/react-proj" element={<Dev />} />
+          <Route path="/react-proj/devs" element={<Dev />} />
+          <Route path="/react-proj" element={<Login />} />
+          <Route path="/react-proj/login" element={<Login />} />
         </Routes>
       </Router>
       <div className="base-div">
@@ -65,7 +69,7 @@ export default function App() {
               />
             </div>
           </div>
-          <button type="submit">Log in!!</button>
+          <button type="submit">Log inn!!</button>
         </form>
       </div>
       {errorLog && 
