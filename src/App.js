@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import './App.css';
 import zen from './resource/Zen.png';
 import { data } from './data.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Dev from './dev.js'
 
 export default function App() {
